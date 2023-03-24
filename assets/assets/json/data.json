@@ -1,12 +1,12 @@
 {
     "data": {
 	"link":"vk.com",
-        "name": "iLhop",
-        "description": "",
-        "telegram": "0123456789",
-        "phone": "0123456789",
-        "whatsapp": "0123456789",
-        "location": "0.00,0.00",
-	"notification": null
+        "name":"Магазин Техники",
+        "description":"Техника на любой вкус",
+        "telegram":"0123456789",
+        "phone":"0123456789",
+        "whatsapp":"0123456789",
+        "location":"0.00,0.00",
+	"notification":null
     }
 }
