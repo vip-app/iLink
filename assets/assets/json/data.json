@@ -1,0 +1,13 @@
+{
+	"data": {
+		"link":"vk.com",
+        "name": "iLiop",
+        "description": null,
+        "telegram": "0123456789",
+        "phone": "0123456789",
+        "whatsapp": "0123456789",
+        "location": "0.00,0.00",
+		"notification":null,
+		"autOpen":true
+    }
+}

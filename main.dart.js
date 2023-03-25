@@ -18560,33 +18560,32 @@ _.b=b
 _.c=c
 _.d=d
 _.e=e},
-O1(a2){var s=0,r=A.X(t.a),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
-var $async$O1=A.Y(function(a3,a4){if(a3===1){o=a4
+O1(){var s=0,r=A.X(t.a),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
+var $async$O1=A.Y(function(a2,a3){if(a2===1){o=a3
 s=p}while(true)switch(s){case 0:a=A.a4D()
 s=3
 return A.Z(A.a14(),$async$O1)
-case 3:a0=a4
+case 3:a0=a3
 $.ac0=a.gyT().i(0,"web")!=null||!1
 e=a.gyT().i(0,"web")
 if(e==null){d=A.bE(J.aS(a0.a,"webId"))
 d.toString
 e=d}n=e
 m=A.eG("https://raw.githubusercontent.com/vip-app/json/main/iLink/"+A.h(n)+"/data.json",0,null)
-d=Date.now()
+d=B.f.K(A.acY(new A.dQ(Date.now(),!1)))
 c=A.kF(J.aS(a0.a,"webTime"))
-c.toString
-s=A.acY(new A.dQ(d,!1))-c>0?4:6
+s=d-(c==null?0:c)>0?4:6
 break
 case 4:p=8
 s=11
 return A.Z(A.avN(m),$async$O1)
-case 11:l=a4
+case 11:l=a3
 a0.w0("String","webId",n)
 if(l.b===200){d=l
 k=B.R.GQ(0,A.avz(J.aS(A.atD(d.e).c.a,"charset")).c5(0,d.w),null)
 j=B.R.hV(k)
 a0.w0("String","webData",j)
-a0.w0("Int","webTime",A.acY(new A.dQ(Date.now(),!1)))
+a0.w0("Int","webTime",B.f.K(A.acY(new A.dQ(Date.now(),!1))))
 q=k
 s=1
 break}else{d=A.bE(J.aS(a0.a,"webData"))
@@ -60938,9 +60937,7 @@ A.tM.prototype={
 ao(){return new A.Dr(B.k)}}
 A.Dr.prototype={
 aA(){this.b6()
-var s=this.c
-s.toString
-this.d=A.O1(s)},
+this.d=A.O1()},
 U(a){var s=null,r=A.a4i(B.N,s,s,s,s).p3,q=A.e9(r.a),p=A.e9(r.b),o=A.e9(r.c),n=A.e9(r.d),m=A.e9(r.e),l=A.e9(r.f),k=A.e9(r.r),j=A.e9(r.w),i=A.e9(r.x)
 i=A.a4i(s,B.fy,B.i,A.adj(A.e9(r.y),A.e9(r.z),A.e9(r.Q),q,p,o,n,m,l,A.e9(r.as),A.e9(r.at),A.e9(r.ax),k,j,i),s)
 return new A.ty(new A.nD(this.d,new A.Xv(),s,t.yV),"",i,!1,s)}}
@@ -60967,7 +60964,7 @@ if(k==null)k=""
 j=s.i(j,"autOpen")
 $.dN=new A.OJ(p,r,q,o,n,m,l,k,j)
 if(!$.ac0&&p.length!==0&&j)A.n6(p)
-return B.yM}return A.ac8(A.Vp("assets/images/youapp.png",50),null,null)},
+return B.yM}return A.ac8(A.Vp("assets/images/youapp.png",70),null,null)},
 $S:359}
 A.Qn.prototype={
 XO(a,b){var s,r,q=t.yH
