@@ -1,6 +1,6 @@
 {
-    "name": "БӀов",
-    "short_name": "БӀов",
+    "name": "YouApp",
+    "short_name": "YouApp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
